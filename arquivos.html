@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>Página de monitoramento meteorológico</title>
+
+    <style>
+        element.style {
+            position: relative;
+            min-height: 100%;
+            top: 0px;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #head {
+            text-align: center;
+            width: 100%;
+            min-height: 100%;
+            background: #3c6178;
+        }
+
+        #logo {
+            width: 100%;
+            height: 64px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: white;
+            outline-width: 0px;
+            outline-style: solid;
+            outline-color: white;
+            text-align: left;
+            background: white;
+        }
+
+        #nav {
+            background: white;
+        }
+
+        #menu {
+            float: inherit;
+            position: center;
+            width: 100%;
+            height: 20%;
+            background: #3c6178;
+        }
+
+        #conteudo {
+            float: inherit;
+            width: 100%;
+            height: 100%;
+            background: white;
+        }
+
+        body {
+            position: relative;
+            margin: 0px;
+            padding: 0px;
+            font: 85% arial, hevetica, sans-serif;
+            text-align: center;
+            color: #333;
+            background: #3c6178;
+        }
+
+
+        #sobra {
+            float: inherit;
+            width: 100%;
+            height: 20%;
+            background: white;
+            margin: 0 0 0 20px;
+        }
+
+        #footer {
+            float: inherit;
+            clear: both;
+            background: #3c6178;
+        }
+
+        body {
+            position: relative;
+            margin: 0px;
+            padding: 0px;
+            font: 85% arial, hevetica, sans-serif;
+            text-align: center;
+            color: #333;
+            background: #3c6178;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="head" title="UEMG Meteorología">
+        <header>
+            <font color="white">
+                <h1>UEMG Meteorología</h1>
+            </font>
+        </header>
+    </div>
+
+    <div id="logo">
+        <a href="https://uemg.br/"><img src="https://i.imgur.com/AWbEvXz.png"></a>
+    </div>
+
+    <div id="menu">
+
+        <button class="btn btn-link">  	<a href="extencao.html">voltar </a>  </button>
+
+    </div>
+
+
+    <div id="conteudo">
+
+        <h1>Informações colhidas nos meses anteriores </h1>
+        <table border="1" align="center">
+            <tr>
+                <td width="225px" height="80px">
+                    <button class="btn btn-ligh" onclick="clicou1()">SETEMBRO</button>
+                    <script>
+	function clicou1()
+{
+	window.alert('Informações referentes ao mes de setembro')
+}
+                    </script>
+                </td>
+
+                <td width="225px" height="80px">
+                    <button class="btn btn-ligh" onclick="clicou2()">JULHO</button>
+                    <script>
+	function clicou2()
+{
+	window.alert('Informações referentes ao mes de julho')
+}
+                    </script>
+                </td>
+
+                <td width="225px" height="80px">
+                    <button class="btn btn-ligh" onclick="clicou3()">MAIO</button>
+                    <script>
+	function clicou3()
+{
+	window.alert('Informações referentes ao mes de maio')
+}
+                    </script>
+                </td>
+
+                <td width="225px" height="80px">
+                    <button class="btn btn-ligh" onclick="clicou4()">MARÇO</button>
+                    <script>
+	function clicou4()
+{
+	window.alert('Informações referentes ao mes de março')
+}
+                    </script>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td width="225px" height="80px">
+                    <button class="btn btn-ligh" onclick="clicou5()">AGOSTO</button>
+                    <script>
+	function clicou5()
+{
+	window.alert('Informações referentes ao mes de agosto')
+}
+                    </script>
+                </td>
+
+                <td width="225px" height="80px">
+                    <button class="btn btn-ligh" onclick="clicou6()">JUNHO</button>
+                    <script>
+	function clicou6()
+{
+	window.alert('Informações referentes ao mes de junho')
+}
+                    </script>
+                </td>
+
+                <td width="225px" height="80px">
+                    <button class="btn btn-ligh" onclick="clicou7()">ABRIL</button>
+                    <script>
+	function clicou7()
+{
+	window.alert('Informações referentes ao mes de abril')
+}
+                    </script>
+                </td>
+
+                <td width="225px" height="80px">
+                    <button class="btn btn-ligh" onclick="clicou8()">...</button>
+                    <script>
+	function clicou8()
+{
+	window.alert('Informações referentes aos meses passados')
+}
+                    </script>
+                </td>
+
+            </tr>
+        </table>
+
+        <p>Para ver os dados de outros meses, clique em "..."</p>
+    </div>
+
+    <div id="footer">
+        <font color="white">
+            Copyright © joe 2022  	<a href="file:/C:/projeto/extencao.html">Volte ao início</a>
+        </font>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
